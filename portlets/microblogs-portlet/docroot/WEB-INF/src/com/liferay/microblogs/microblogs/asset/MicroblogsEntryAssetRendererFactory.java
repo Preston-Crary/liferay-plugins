@@ -22,8 +22,8 @@ import com.liferay.microblogs.service.MicroblogsEntryLocalServiceUtil;
 import com.liferay.microblogs.service.permission.MicroblogsEntryPermission;
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.security.permission.PermissionChecker;
-import com.liferay.portlet.asset.model.AssetRenderer;
-import com.liferay.portlet.asset.model.BaseAssetRendererFactory;
+import com.liferay.asset.kernel.model.AssetRenderer;
+import com.liferay.asset.kernel.model.BaseAssetRendererFactory;
 
 /**
  * @author Matthew Kong

@@ -27,7 +27,7 @@ import com.liferay.portal.kernel.util.HtmlUtil;
 import com.liferay.portal.kernel.util.StringUtil;
 import com.liferay.portal.kernel.util.Validator;
 import com.liferay.portal.theme.ThemeDisplay;
-import com.liferay.portlet.asset.model.BaseJSPAssetRenderer;
+import com.liferay.asset.kernel.model.BaseJSPAssetRenderer;
 
 import java.util.Locale;
 

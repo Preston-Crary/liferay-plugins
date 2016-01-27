@@ -19,8 +19,8 @@ package com.liferay.tasks.asset;
 
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.security.permission.PermissionChecker;
-import com.liferay.portlet.asset.model.AssetRenderer;
-import com.liferay.portlet.asset.model.BaseAssetRendererFactory;
+import com.liferay.asset.kernel.model.AssetRenderer;
+import com.liferay.asset.kernel.model.BaseAssetRendererFactory;
 import com.liferay.tasks.model.TasksEntry;
 import com.liferay.tasks.service.TasksEntryLocalServiceUtil;
 import com.liferay.tasks.service.permission.TasksEntryPermission;

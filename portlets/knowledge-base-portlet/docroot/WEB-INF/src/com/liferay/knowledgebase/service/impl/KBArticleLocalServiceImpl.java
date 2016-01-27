@@ -80,9 +80,9 @@ import com.liferay.portal.model.SystemEventConstants;
 import com.liferay.portal.model.User;
 import com.liferay.portal.service.ServiceContext;
 import com.liferay.portal.util.SubscriptionSender;
-import com.liferay.portlet.asset.model.AssetEntry;
-import com.liferay.portlet.asset.model.AssetLink;
-import com.liferay.portlet.asset.model.AssetLinkConstants;
+import com.liferay.asset.kernel.model.AssetEntry;
+import com.liferay.asset.kernel.model.AssetLink;
+import com.liferay.asset.kernel.model.AssetLinkConstants;
 
 import java.io.InputStream;
 

@@ -29,7 +29,7 @@ import com.liferay.portal.model.User;
 import com.liferay.portal.service.ServiceContext;
 import com.liferay.portal.service.UserLocalServiceUtil;
 import com.liferay.portal.util.PortalUtil;
-import com.liferay.portlet.asset.model.AssetRenderer;
+import com.liferay.asset.kernel.model.AssetRenderer;
 
 /**
  * @author Jonathan Lee

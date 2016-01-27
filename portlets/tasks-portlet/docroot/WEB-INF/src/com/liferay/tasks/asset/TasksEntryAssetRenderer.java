@@ -25,7 +25,7 @@ import com.liferay.portal.model.User;
 import com.liferay.portal.theme.ThemeDisplay;
 import com.liferay.portal.util.PortalUtil;
 import com.liferay.portlet.PortletURLFactoryUtil;
-import com.liferay.portlet.asset.model.BaseJSPAssetRenderer;
+import com.liferay.asset.kernel.model.BaseJSPAssetRenderer;
 import com.liferay.tasks.model.TasksEntry;
 import com.liferay.tasks.service.permission.TasksEntryPermission;
 import com.liferay.tasks.util.PortletKeys;

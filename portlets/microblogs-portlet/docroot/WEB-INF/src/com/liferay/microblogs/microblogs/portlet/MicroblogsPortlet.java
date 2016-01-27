@@ -27,7 +27,7 @@ import com.liferay.portal.kernel.util.WebKeys;
 import com.liferay.portal.service.ServiceContext;
 import com.liferay.portal.service.ServiceContextFactory;
 import com.liferay.portal.theme.ThemeDisplay;
-import com.liferay.portlet.asset.service.AssetEntryLocalServiceUtil;
+import com.liferay.asset.kernel.service.AssetEntryLocalServiceUtil;
 
 import java.util.ArrayList;
 import java.util.List;
