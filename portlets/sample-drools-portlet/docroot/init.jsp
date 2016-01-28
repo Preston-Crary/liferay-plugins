@@ -49,10 +49,10 @@ page import="com.liferay.portal.model.Portlet" %><%@
 page import="com.liferay.portal.model.User" %><%@
 page import="com.liferay.portal.service.PortletLocalServiceUtil" %><%@
 page import="com.liferay.portal.util.PortalUtil" %><%@
-page import="com.liferay.portlet.asset.AssetRendererFactoryRegistryUtil" %><%@
-page import="com.liferay.portlet.asset.model.AssetEntry" %><%@
-page import="com.liferay.portlet.asset.model.AssetRenderer" %><%@
-page import="com.liferay.portlet.asset.model.AssetRendererFactory" %><%@
+page import="com.liferay.asset.kernel.AssetRendererFactoryRegistryUtil" %><%@
+page import="com.liferay.asset.kernel.model.AssetEntry" %><%@
+page import="com.liferay.asset.kernel.model.AssetRenderer" %><%@
+page import="com.liferay.asset.kernel.model.AssetRendererFactory" %><%@
 page import="com.liferay.util.portlet.PortletProps" %>
 
 <%@ page import="java.util.ArrayList" %><%@

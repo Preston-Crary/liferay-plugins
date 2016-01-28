@@ -39,7 +39,7 @@ page import="com.liferay.portal.model.Subscription" %><%@
 page import="com.liferay.portal.service.SubscriptionLocalServiceUtil" %><%@
 page import="com.liferay.portal.util.PortalUtil" %><%@
 page import="com.liferay.portal.util.comparator.SubscriptionClassNameIdComparator" %><%@
-page import="com.liferay.portlet.asset.model.AssetRenderer" %><%@
+page import="com.liferay.asset.kernel.model.AssetRenderer" %><%@
 page import="com.liferay.taglib.search.ResultRow" %>
 
 <%@ page import="java.util.List" %>
