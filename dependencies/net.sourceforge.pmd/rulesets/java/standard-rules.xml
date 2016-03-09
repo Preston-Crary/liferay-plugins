@@ -147,6 +147,34 @@ public class Foo {
 		</example>
 	</rule>
 	<rule
+		class="com.liferay.pmd.rules.java.UseIndexOfCharRule"
+		externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/strings.html#UseIndexOfChar"
+		message="String.indexOf(char) is faster than String.indexOf(String)."
+		name="UseIndexOfChar"
+		since="3.5"
+	>
+		<description>
+			[Origin rule set file rulesets/java/strings.xml] Use String.indexOf(char) when checking for the index of a single character; it executes faster.
+		</description>
+		<priority>3</priority>
+		<example>
+			<![CDATA[
+
+String s = "hello world";
+
+int x = s.indexOf("d");
+			]]>
+		</example>
+		<example>
+			<![CDATA[
+
+String s = "hello world";
+
+int x = s.lastIndexOf("d", s.length() - 1);
+			]]>
+		</example>
+	</rule>
+	<rule
 		class="net.sourceforge.pmd.lang.java.rule.unnecessary.UselessOperationOnImmutableRule"
 		externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/unnecessary.html#UselessOperationOnImmutable"
 		message="An operation on an Immutable object (String, BigDecimal or BigInteger) won't change the object itself"
