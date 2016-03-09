@@ -146,6 +146,30 @@ public class Foo {
 			]]>
 		</example>
 	</rule>
+	<rule name="UseIndexOfChar"
+		since="3.5"
+		message="String.indexOf(char) is faster than String.indexOf(String)."
+		class="net.sourceforge.pmd.lang.java.rule.strings.UseIndexOfCharRule"
+		externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/strings.html#UseIndexOfChar">
+		<description>
+			[Origin rule set file rulesets/java/strings.xml] Use String.indexOf(char) when checking for the index of a single character; it executes faster.
+		</description>
+		<priority>3</priority>
+		<example>
+			<![CDATA[
+
+String s = "hello world";
+
+// Avoid this
+
+if (s.indexOf("d") {}
+
+// Instead do this
+
+if (s.indexOf('d') {}
+			]]>
+		</example>
+	</rule>
 	<rule
 		class="net.sourceforge.pmd.lang.java.rule.unnecessary.UselessOperationOnImmutableRule"
 		externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/unnecessary.html#UselessOperationOnImmutable"
